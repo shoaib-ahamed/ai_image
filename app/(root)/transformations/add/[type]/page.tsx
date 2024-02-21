@@ -15,7 +15,7 @@ const AddTransformationTypePage = async ({
 
   const user = await getUserById(userId);
 
-  console.log({ user, userId });
+  console.log({ user });
 
   return (
     <>
